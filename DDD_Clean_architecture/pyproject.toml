@@ -1,0 +1,16 @@
+[project]
+name="domain-driven-design"
+version="0.1.0"
+description="A POC on Domain Driven Design"
+readme="READEME.md"
+requires-python=">=3.10.0"
+dependencies=[
+    "fastapi",
+    "pytest",
+    "uvicorn",
+    "requests",
+    "rich>=14.2.0",
+]
+
+[tool.uv]
+required-version=">=0.7.0"
